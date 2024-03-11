@@ -8,3 +8,98 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+    font-family: 'Helvetica Neue', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Iteration 1 | Mobile Screens (width < 768px) */
+
+@media (max-width: 768px) {
+    nav {
+        background-color: #540b51;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 50%
+    
+    }
+
+            nav img {
+                display: flex;
+                justify-content: flex-start;
+                width: 95%
+                
+            }
+
+            nav ul {
+            display: none;
+        }
+
+            nav button img {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+            }
+
+    header div {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background-color: #540b51;
+        text-align: center;
+        width: 95%
+    }
+
+    header img {
+        width: auto;
+
+    }
+
+    header button {
+        display: flex;
+        flex-direction: row;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+        text-transform: uppercase;
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+        padding: 19px 40px 20px;
+    }
+
+    .sign-email {
+        background-color: white;
+        color:#540b51;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+
+    }
+    .sign-google {
+        background-color: #4285F4;
+        color:white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        justify-content: center;
+
+    }
+
+    .sign-google img {
+        display: flex;
+        align-items: flex-start;
+        width: 10%;
+        background-color: white;
+    }
+
+    .yellow-text {
+        color: #ECB12F;
+    }
+
+    
+    
+}
